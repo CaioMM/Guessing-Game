@@ -1,4 +1,5 @@
 import random
+import time
 
 print("############################################## Welcome To Guessing Game ##############################################")
 
@@ -51,4 +52,5 @@ while True:
 	
 	if playAgain == 2:
 		print("Thanks for playing. \r\nSee you next time.")
+		time.sleep(3)
 		break
